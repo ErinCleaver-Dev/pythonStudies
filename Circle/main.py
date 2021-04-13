@@ -10,8 +10,9 @@ def myTurtle(forward, rotateLeft):
 
 
 
-def circle(times, angle, size):
+def circle(times, angle, size, color):
     for i in range(times):
+        my_turtle.color(color)
         my_turtle.left(angle)
         myTurtle(size, 90)
         my_turtle.left(90)
@@ -19,10 +20,10 @@ def circle(times, angle, size):
         my_turtle.left(90)
         my_turtle.left(180)
 
-circle(30, -75, 90)
-circle(30, -75, 60)
-circle(30, -75, 45)
-circle(30, -75, 25)
+circle(450, -89, 90, "#B0E0E6")
+circle(150, -61, 60, "#DA70D6")
+circle(75, -61, 45, "#E6E6FA")
+circle(25, -62, 25, "#B0E0E6")
 
 input ()
 
