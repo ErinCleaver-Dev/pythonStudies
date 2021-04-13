@@ -8,10 +8,13 @@ def myTurtle(forward, rotateLeft):
         for i in range(1): 
             my_turtle.left(rotateLeft)
 
+for i in range(30):
+  my_turtle.left(-75)
+  myTurtle(90, 90)
+  my_turtle.left(90)
+  my_turtle.forward(90)
+  my_turtle.left(90)
+  my_turtle.left(180)
 
+input ()
 
-for i in range(4):
-    myTurtle(90, 90)
-    my_turtle.left(45)
-
-input()
