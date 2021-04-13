@@ -16,10 +16,10 @@ def circle(times, angle, size, color):
         my_turtle.left(angle)
         myTurtle(size, 90)
 
-circle(450, 7, 90, "#B0E0E6")
+circle(150, 7, 90, "#B0E0E6")
 circle(100, 11, 60, "#DA70D6")
-circle(75, 15, 45, "#E6E6FA")
-circle(50, 5, 25, "#B0E0E6")
+circle(24, 15, 45, "#E6E6FA")
+circle(72, 5, 25, "#B0E0E6")
 
 input ()
 
